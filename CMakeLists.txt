@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.10)
+project(32_proto)
+set(CMAKE_CXX_STANDARD 17)
+find_package(Protobuf REQUIRED)
+include_directories(${Protobuf_INCLUDE_DIRS})
+include_directories(${CMAKE_CURRENT_BINARY_DIR})
+protobuf_generate_cpp(PROTO_SRCS PROTO_HDRS person.proto)
+add_executable(32_proto main.cpp ${PROTO_SRCS} ${PROTO_HDRS})
+target_link_libraries(32_proto ${Protobuf_LIBRARIES})
+

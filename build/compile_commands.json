@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/kate/skillbox/32_proto/build",
+  "command": "/usr/bin/g++   -I/home/kate/skillbox/32_proto/build  -g   -std=gnu++17 -o CMakeFiles/32_proto.dir/main.cpp.o -c /home/kate/skillbox/32_proto/main.cpp",
+  "file": "/home/kate/skillbox/32_proto/main.cpp"
+},
+{
+  "directory": "/home/kate/skillbox/32_proto/build",
+  "command": "/usr/bin/g++   -I/home/kate/skillbox/32_proto/build  -g   -std=gnu++17 -o CMakeFiles/32_proto.dir/person.pb.cc.o -c /home/kate/skillbox/32_proto/build/person.pb.cc",
+  "file": "/home/kate/skillbox/32_proto/build/person.pb.cc"
+}
+]
